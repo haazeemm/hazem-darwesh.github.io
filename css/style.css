@@ -895,7 +895,7 @@ strong { color: var(--heading); font-weight: 600; }
     top: auto;
     transform: none;
     margin: 40px auto 0;
-    width: min(320px, 100%);
+    width: min(500px, 100%);
     height: auto;
     aspect-ratio: 3 / 4;
     border: 2px solid var(--border);
@@ -912,14 +912,14 @@ strong { color: var(--heading); font-weight: 600; }
   }
 
   .hero img {
-    width: 200px;
+    width: 500px;
     margin-top: 20px;
   }
 }
 
 
 /* ── 16. RESPONSIVE — MOBILE (≤ 560px) ───────────────────── */
-@media (max-width: 800px) {
+@media (max-width: 560px) {
   .skills-grid      { grid-template-columns: 1fr; }
   .projects-grid    { grid-template-columns: 1fr; }
 
@@ -927,7 +927,7 @@ strong { color: var(--heading); font-weight: 600; }
   .br-desktop       { display: none; }
   .hero-desc        { font-size: 15px; }
 
-  .hero-photo       { width: min(280px, 100%); height: auto; aspect-ratio: 3/4; }
+  .hero-photo       { width: min(450px, 100%); height: auto; aspect-ratio: 3/4; }
 
   .footer-inner     { flex-direction: column; gap: 14px; text-align: center; }
 }
