@@ -116,6 +116,7 @@
   if (!form) return;
 
   form.addEventListener('submit', (e) => {
+    e.preventDefault();
     const name    = form.name.value.trim();
     const email   = form.email.value.trim();
     const message = form.message.value.trim();
@@ -131,12 +132,10 @@
       return;
     }
 
-    // --- Success state ---
-    // In a real static site you would send to Formspree / EmailJS here.
-    // Example with Formspree:
-    //   form.action = "https://formspree.io/f/YOUR_ID";
-    //   form.method = "POST";
-    //   form.submit();
+      form.action = "https://formspree.io/f/mwvwwydk";
+      form.method = "POST";
+      form.submit(); 
+
 
     showFeedback('Message sent! I\'ll get back to you soon.', 'success');
     form.reset();
