@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hazem Darwesh — Full Stack .NET Developer. Portfolio showcasing skills, projects, and contact info."
+    />
+    <title>Hazem Darwesh | Full Stack .NET Developer</title>
+
+    <!-- Google Fonts: Syne (display) + DM Sans (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ========================================================
+       NAVBAR
+  ======================================================== -->
+    <header id="navbar">
+      <div class="nav-container">
+        <!-- Logo / brand -->
+        <a href="#hero" class="nav-logo">HD<span>.</span></a>
+
+        <!-- Desktop navigation links -->
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- Mobile hamburger button -->
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ========================================================
+       HERO SECTION
+  ======================================================== -->
+    <section id="hero">
+      <!-- Decorative background grid -->
+      <div class="hero-grid" aria-hidden="true"></div>
+
+      <!-- Glowing orb -->
+      <div class="hero-orb" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <!-- Small eyebrow label -->
+        <div class="hero-eyebrow">
+          <span class="dot"></span>
+          Available for opportunities
+        </div>
+
+        <!-- Main heading -->
+        <h1 class="hero-title">
+          Hi, I'm <span class="accent">Hazem</span><br />
+          <span class="outline-text">Darwesh</span>
+        </h1>
+        <div class="hero-photo reveal">
+          <img
+            src="assets/photo.jpeg"
+            alt="Hazem Darwesh smiling confidently in a modern office setting with a computer visible in the background"
+            width="300"
+            height="400"
+            decoding="async"
+            loading="lazy"
+          />
+        </div>
+        <!-- Subtitle / role -->
+        <p class="hero-subtitle">Full Stack .NET Developer</p>
+
+        <!-- Short tagline -->
+        <p class="hero-desc">
+          Building scalable web applications with C# &amp; .NET —<br
+            class="br-desktop"
+          />
+          clean code, real-world solutions.
+        </p>
+
+        <!-- CTA buttons -->
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+
+        <!-- Scroll hint -->
+        <div class="scroll-hint" aria-hidden="true">
+          <div class="scroll-line"></div>
+          <span>scroll</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+       ABOUT SECTION
+  ======================================================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-label">01 / About Me</div>
+        <h2 class="section-title">Who I Am</h2>
+
+        <div class="about-grid">
+          <!-- Left: text -->
+          <div class="about-text reveal">
+            <p>
+              I am a passionate <strong>Full Stack .NET Developer</strong> with
+              a strong focus on backend development. I enjoy building scalable
+              and efficient web applications using C# and .NET technologies.
+            </p>
+            <p>
+              I have solid experience in
+              <strong>HTML, CSS, and JavaScript</strong>, and I am continuously
+              improving my skills in modern web development. I am currently
+              expanding my knowledge in
+              <strong>DevOps and software architecture</strong>, aiming to build
+              real-world, production-ready systems.
+            </p>
+
+            <!-- Quick facts -->
+            <div class="about-facts">
+              <div class="fact">
+                <span class="fact-icon">⚙</span>
+                <span>Backend-focused developer</span>
+              </div>
+              <div class="fact">
+                <span class="fact-icon">📐</span>
+                <span>Clean architecture enthusiast</span>
+              </div>
+              <div class="fact">
+                <span class="fact-icon">🚀</span>
+                <span>Always learning, always building</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: info card -->
+          <div class="about-card reveal">
+            <div class="card-header">// info.cs</div>
+            <div class="card-row">
+              <span class="card-key">Name</span>
+              <span class="card-val">Hazem Darwesh</span>
+            </div>
+            <div class="card-row">
+              <span class="card-key">Role</span>
+              <span class="card-val">Full Stack .NET Dev</span>
+            </div>
+            <div class="card-row">
+              <span class="card-key">Stack</span>
+              <span class="card-val">C# · .NET · SQL</span>
+            </div>
+            <div class="card-row">
+              <span class="card-key">Focus</span>
+              <span class="card-val">Backend · Architecture</span>
+            </div>
+            <div class="card-row">
+              <span class="card-key">Status</span>
+              <span class="card-val status-available">
+                <span class="pulse"></span>Available
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+       SKILLS SECTION
+  ======================================================== -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-label">02 / Skills</div>
+        <h2 class="section-title">What I Work With</h2>
+
+        <!-- Skills grid — each tag animates in on scroll -->
+        <div class="skills-grid reveal">
+          <!-- Backend -->
+          <div class="skill-group">
+            <div class="skill-group-title">Backend</div>
+            <div class="skill-tags">
+              <span class="skill-tag">C#</span>
+              <span class="skill-tag">.NET Core</span>
+              <span class="skill-tag">ASP.NET MVC</span>
+              <span class="skill-tag">Entity Framework Core</span>
+              <span class="skill-tag">LINQ</span>
+            </div>
+          </div>
+
+          <!-- Database -->
+          <div class="skill-group">
+            <div class="skill-group-title">Database</div>
+            <div class="skill-tags">
+              <span class="skill-tag">SQL Server</span>
+            </div>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-group">
+            <div class="skill-group-title">Frontend</div>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </div>
+
+          <!-- Tools & Concepts -->
+          <div class="skill-group">
+            <div class="skill-group-title">Tools & Concepts</div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git &amp; GitHub</span>
+              <span class="skill-tag">OOP</span>
+              <span class="skill-tag">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+       PROJECTS SECTION
+  ======================================================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-label">03 / Projects</div>
+        <h2 class="section-title">Things I've Built</h2>
+
+        <!-- Project cards grid -->
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-num">001</div>
+            <div class="project-icon">🛒</div>
+            <h3 class="project-title">E-Commerce System</h3>
+            <p class="project-desc">
+              A backend-focused e-commerce system built using C# and .NET,
+              implementing product management, order processing, and clean
+              architecture principles.
+            </p>
+            <div class="project-tags">
+              <span>C#</span>
+              <span>.NET</span>
+              <span>SQL Server</span>
+              <span>Clean Architecture</span>
+            </div>
+            <a
+              href="https://github.com/haazeemm"
+              target="_blank"
+              rel="noopener"
+              class="project-link"
+            >
+              View on GitHub →
+            </a>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal">
+            <div class="project-num">002</div>
+            <div class="project-icon">🧾</div>
+            <h3 class="project-title">Invoice Management System</h3>
+            <p class="project-desc">
+              A simple system for generating and managing invoices, focusing on
+              OOP concepts and clean code structure.
+            </p>
+            <div class="project-tags">
+              <span>C#</span>
+              <span>OOP</span>
+              <span>Clean Code</span>
+            </div>
+            <a
+              href="https://github.com/haazeemm"
+              target="_blank"
+              rel="noopener"
+              class="project-link"
+            >
+              View on GitHub →
+            </a>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal">
+            <div class="project-num">003</div>
+            <div class="project-icon">📦</div>
+            <h3 class="project-title">Mini Projects Collection</h3>
+            <p class="project-desc">
+              A collection of small projects demonstrating core programming
+              concepts, algorithms, and backend logic.
+            </p>
+            <div class="project-tags">
+              <span>C#</span>
+              <span>Algorithms</span>
+              <span>Backend Logic</span>
+            </div>
+            <a
+              href="https://github.com/haazeemm"
+              target="_blank"
+              rel="noopener"
+              class="project-link"
+            >
+              View on GitHub →
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+       CONTACT SECTION
+  ======================================================== -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-label">04 / Contact</div>
+        <h2 class="section-title">Let's Connect</h2>
+
+        <div class="contact-wrapper reveal">
+          <!-- Left: text + channels -->
+          <div class="contact-info">
+            <p class="contact-intro">
+              I'm open to new opportunities, collaborations, and interesting
+              projects. Feel free to reach out — I'd love to talk.
+            </p>
+
+            <div class="contact-channels">
+              <a href="mailto:hazematif10@gmail.com" class="channel">
+                <span class="channel-icon">✉</span>
+                <div>
+                  <span class="channel-label">Email</span>
+                  <span class="channel-val">hazematif10@gmail.com</span>
+                </div>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/hazem-darwesh-086b25226"
+                target="_blank"
+                rel="noopener"
+                class="channel"
+              >
+                <span class="channel-icon">in</span>
+                <div>
+                  <span class="channel-label">LinkedIn</span>
+                  <span class="channel-val">hazem-darwesh</span>
+                </div>
+              </a>
+
+              <a
+                href="https://github.com/haazeemm"
+                target="_blank"
+                rel="noopener"
+                class="channel"
+              >
+                <span class="channel-icon">⬡</span>
+                <div>
+                  <span class="channel-label">GitHub</span>
+                  <span class="channel-val">hazem-darwesh</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: simple contact form (static — no backend needed) -->
+          <form
+            class="contact-form"
+            id="contactForm"
+            action="https://formspree.io/f/mwvwwydk"
+            method="POST"
+            novalidate
+          >
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Tell me about your project..."
+                required
+              ></textarea>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-full">
+              Send Message →
+            </button>
+
+            <!-- Success / error feedback -->
+            <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+       FOOTER
+  ======================================================== -->
+    <footer id="footer">
+      <div class="container footer-inner">
+        <span class="footer-logo">HD<span>.</span></span>
+        <span class="footer-copy">
+          © <span id="year"></span> Hazem Darwesh — Built with HTML, CSS &amp;
+          JS
+        </span>
+        <a href="#hero" class="back-top" aria-label="Back to top">↑</a>
+      </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
