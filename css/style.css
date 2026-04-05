@@ -876,6 +876,17 @@ strong { color: var(--heading); font-weight: 600; }
 
   section           { padding: 80px 0; }
   .section-title    { margin-bottom: 36px; }
+
+  .hero-photo {
+    position: relative;
+    right: auto;
+    top: auto;
+    transform: none;
+    margin: 40px auto 0;
+    width: min(320px, 100%);
+    height: auto;
+    aspect-ratio: 3 / 4;
+  }
 }
 
 
