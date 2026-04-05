@@ -21,5 +21,3 @@ I am a Full Stack .NET Developer with a strong passion for backend development a
 
 📌 Purpose:
 This portfolio represents my journey, skills, and projects as I grow in the software development field and move towards building real-world production systems.
-🌐 Live Demo:
-(ضيف لينك GitHub Pages هنا)
